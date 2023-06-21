@@ -38,9 +38,4 @@ public class LabController {
 		return "forward:/members";
 	}
 	
-	@GetMapping("/findAll")
-	public String findId4() {
-		memberService.findById(4);
-		return "forward:/members";
-	}
 }
